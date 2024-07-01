@@ -1,5 +1,3 @@
-import this
-
 # Pythonic Code Style
 print("Pythonic Code Style")
 print("Clean")

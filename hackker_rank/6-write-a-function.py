@@ -1,12 +1,12 @@
-def is_leap(year):
+def is_leap(year_parameter):
     leap = False
 
     # Write your logic here
-    if year % 4 == 0:
+    if year_parameter % 4 == 0:
         leap = True
-    if year % 100 == 0:
+    if year_parameter % 100 == 0:
         leap = False
-    if year % 400 == 0:
+    if year_parameter % 400 == 0:
         leap = True
     return leap
 
